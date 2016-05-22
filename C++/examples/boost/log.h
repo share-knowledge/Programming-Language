@@ -1,6 +1,7 @@
 #ifndef _UTIL_LOG_H__
 #define _UTIL_LOG_H__
 
+#include <string>
 
 #include <boost/log/trivial.hpp>
 #include <boost/log/utility/setup.hpp>
@@ -18,7 +19,7 @@ namespace attr = boost::log::attributes;
 namespace trivial = boost::log::trivial;
 namespace src = boost::log::sources;
 
-#define LOGGER(logger, sev) \
+#define LOG(logger, sev) \
 util::logging::attribute_cast<util::attr::mutable_constant<int> \
 	>(util::logging::core::get()->get_global_attributes()["Line"]).set(__LINE__); \
 	util::logging::attribute_cast<util::attr::mutable_constant<std::string> \
