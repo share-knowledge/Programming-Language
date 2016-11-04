@@ -17,6 +17,9 @@ if (USE_MYMATH)
 	 set (EXTRA_LIBS ${EXTRA_LIBS} Add)
 endif (USE_MYMATH)
 
+MESSAGE(STATUS "##" ${PROJECT_SOURCE_DIR})
+MESSAGE(STATUS "##" ${PROJECT_BINARY_DIR})
+
 aux_source_directory(. DIR_SRC)
 
 add_executable(Demo ${DIR_SRC})
