@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/steven/github/Programming-Language/C++/cmake_example/config.h
+
+/Users/steven/github/Programming-Language/C++/cmake_example/main.cc
+tool/math_example.h
+/Users/steven/github/Programming-Language/C++/cmake_example/tool/math_example.h
+stdio.h
+-
+config.h
+/Users/steven/github/Programming-Language/C++/cmake_example/config.h
+
+/Users/steven/github/Programming-Language/C++/cmake_example/tool/math_example.h
+
