@@ -1,2 +1,1 @@
-## example cmake
-
+### mkdir build && cd build && cmake -DCMAKE_INSTALL_PREFIX=/tmp/t2/usr .. && make && make install
