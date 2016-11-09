@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+
+PROJECT(example4)
+
+ADD_SUBDIRECTORY(src)
