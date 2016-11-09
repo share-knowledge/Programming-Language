@@ -2,4 +2,4 @@
 *.o
 logs/
 *.out
-
+build/

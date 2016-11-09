@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 2.8)
+
+aux_source_directory(. DIR_TOOL)
+
+add_library(Tool ${DIR_TOOL})
+
+install(TARGETS Tool DESTINATION bin)
+
+install(FILES math_example.h DESTINATION include)

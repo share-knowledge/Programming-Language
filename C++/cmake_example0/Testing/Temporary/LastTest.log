@@ -1,0 +1,37 @@
+Start testing: Nov 04 08:51 CST
+----------------------------------------------------------
+1/2 Testing: test_run
+1/2 Test: test_run
+Command: "/Users/steven/github/Programming-Language/C++/cmake_example/Demo"
+Directory: /Users/steven/github/Programming-Language/C++/cmake_example
+"test_run" start time: Nov 04 08:51 CST
+Output:
+----------------------------------------------------------
+Hello World from t1 Main: 66!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_run" end time: Nov 04 08:51 CST
+"test_run" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_usage
+2/2 Test: test_usage
+Command: "/Users/steven/github/Programming-Language/C++/cmake_example/Demo"
+Directory: /Users/steven/github/Programming-Language/C++/cmake_example
+"test_usage" start time: Nov 04 08:51 CST
+Output:
+----------------------------------------------------------
+Hello World from t1 Main: 66!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[Usage
+]
+"test_usage" end time: Nov 04 08:51 CST
+"test_usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 08:51 CST

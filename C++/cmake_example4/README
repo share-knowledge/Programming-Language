@@ -1,0 +1,2 @@
+### mkdir build && cd build && cmake -DCMAKE_INSTALL_PREFIX=/tmp/t4/usr .. && make && make install
+
